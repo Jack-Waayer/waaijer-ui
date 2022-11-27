@@ -1,0 +1,33 @@
+{
+  "name": "waaijer-ui",
+  "version": "1.0.0",
+  "description": "Waaijer UI component library",
+  "main": "index.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-Waayer/waaijer-ui.git"
+  },
+  "author": "Jack Waayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jack-Waayer/waaijer-ui/issues"
+  },
+  "homepage": "https://github.com/Jack-Waayer/waaijer-ui#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.4"
+  }
+}
